@@ -42,13 +42,51 @@
             <!--TODO: Implement a toggle-list type structure for the topics of CITS3403. -->
             <h2>Unit Topics</h2>
             <div id="topic1">
-                <h3>Topic 1: HTML</h3>
+                <h3 onclick="toggle('content1')" >Topic 1: HTML</h3>
+                <div id="content1" class="content">
+                    <!--Content goes here-->
+                    <p>
+                        HTML (HyperText Markup Language) describes the semantic content of a webpage and the the logical relationships between content. 
+                    </p>
+                    <a href="html.pdf">Lecture Notes</a>
+                    <h4>Relevant Learning Outcomes</h4>
+                    <p>
+                        <li id="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
+                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li id="item3">Develop web applications using client-side and server-side technologies.</li>
+                    </p>
+                </div>
             </div>
             <div id="topic2">
-                <h3>Topic 2: CSS</h3>
+                <h3 onclick="toggle('content2')">Topic 2: CSS</h3>
+                <div id="content2" class="content">
+                    <!--Content goes here-->
+                    <p>
+                        CSS stands for Cascading Style Sheets and is used to specify the layout and style of markup languages.
+                    </p>
+                    <a href="css.pdf">Lecture Notes</a>
+                    <h4>Relevant Learning Outcomes</h4>
+                    <p>
+                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li id="item3">Develop web applications using client-side and server-side technologies.</li>
+                    </p>
+                </div>
             </div>
             <div id="topic3">
-                <h3>Topic 3: Bootstrap</h3>
+                <h3 onclick="toggle('content3')">Topic 3: Bootstrap</h3>
+                <div id="content3" class="content">
+                    <!--Content goes here-->
+                    <p>
+                        Bootstrap is an open source HTML, CSS and javascript library for developing responsive applications.
+                        Bootstrap uses CSS and javascript to build style components in a reasonably aesthetic way with very little effort.
+                    </p>
+                    <a href="bootstrap.pdf">Lecture Note</a>
+                    <h4>Relevant Learning Outcomes</h4>
+                    <p>
+                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li id="item3">Develop web applications using client-side and server-side technologies.</li>
+                    </p>
+                </div>
             </div>
             <!--There are more topics but let's just implement the first 3 to save time.-->
         </div>
