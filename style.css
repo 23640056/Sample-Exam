@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+#item1 {
+    color: green;
+}
+
+#item2 {
+    color: blue;
+}
+
+#item3 {
+    color: red;
+}
+
+#item4 {
+    color: darkmagenta;
+}
+
+#item5 {
+    color: darkorange;
+}
+
+#item6 {
+    color: darkslategrey;
+}
+
+li {
+    list-style-type: decimal;
+}
