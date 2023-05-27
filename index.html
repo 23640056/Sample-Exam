@@ -3,7 +3,6 @@
     <head>
         <Title>Sample Exam</Title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
     </head>
     <body>
 
@@ -31,6 +30,7 @@
 
         <!--Task 3-->
         <div class="outcomes">
+            <h2>Learning Outcomes</h2>
             <ul>
                 <li id="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
                 <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
@@ -48,7 +48,7 @@
 
             <div id="topic1">
                 <h3 onclick="toggle('content1')" >Topic 1: HTML</h3>
-                <div id="content1" class="content">
+                <div id="content1" class="content hidden">
                     <!--Content goes here-->
                     <p>
                         HTML (HyperText Markup Language) describes the semantic content of a webpage and the the logical relationships between content. 
@@ -64,16 +64,14 @@
                         <input type="checkbox" id="forms" name="forms" value="form">
                         <label for="forms"> HTML forms</label><br>
                     </div>
-                    <div id="notes">
-                        <textarea maxlength="1000" oninput="checkLengyh(this)"></textarea>
-                    </div>
+                    <textarea id="notes"></textarea>
                 </div>
             </div>
 
 
             <div id="topic2">
                 <h3 onclick="toggle('content2')">Topic 2: CSS</h3>
-                <div id="content2" class="content">
+                <div id="content2" class="content hidden">
                     <!--Content goes here-->
                     <p>
                         CSS stands for Cascading Style Sheets and is used to specify the layout and style of markup languages.
@@ -88,14 +86,14 @@
                         <input type="checkbox" id="css" name="css" value="css">
                         <label for="css"> CSS Responsive</label><br>
                     </div>
-                    <textarea maxlength="1000"></textarea>
+                    <textarea id="notes"></textarea>
                 </div>
             </div>
 
 
             <div id="topic3">
                 <h3 onclick="toggle('content3')">Topic 3: Bootstrap</h3>
-                <div id="content3" class="content">
+                <div id="content3" class="content hidden">
                     <!--Content goes here-->
                     <p>
                         Bootstrap is an open source HTML, CSS and javascript library for developing responsive applications.
@@ -111,14 +109,14 @@
                         <input type="checkbox" id="bootstrap" name="bootstrap" value="bootstrap">
                         <label for="boostrap"> Boostrap 5 Forms</label><br>
                     </div>
-                    <textarea maxlength="1000"></textarea>
+                    <textarea id="notes"></textarea>
                 </div>
             </div>
             <!--There are more topics but let's just implement the first 3 and 5, 10 and 11 to save time.-->
 
             <div id="topic5">
                 <h3 onclick="toggle('content5')">Topic 5: Document Object Model</h3>
-                <div id="content5" class="content">
+                <div id="content5" class="content hidden">
                     <p>
                         The Document Object Model is a platform- and language-neutral interface that will allow programs
                         and scripts to dynamically access and update the content, structure and style of documents.
@@ -134,16 +132,17 @@
                         <input type="checkbox" id="DOM" name="DOM" value="DOM">
                         <label for="DOM"> DOM Tree</label>
                     </div>
-                    <textarea maxlength="1000"></textarea>
+                    <textarea id="notes">The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a web page as a tree-like model, allowing developers to access and manipulate its elements. The DOM is crucial in web development as it enables dynamic content, interactivity, and user experience enhancements. With the DOM, developers can modify HTML elements, respond to user events, traverse and manipulate the document structure, and ensure cross-browser compatibility. It also facilitates integration with other web technologies such as JavaScript and CSS. Overall, the DOM plays a vital role in creating interactive and responsive web applications.</textarea>
                 </div>
             </div>
 
 
             <div id="topic10">
                 <h3 onclick="toggle('content10')">Topic 10: Model View Controller</h3>
-                <div id="content10" class="content">
+                <div id="content10" class="content hidden">
                     <p>
-                        
+                        Design patterns describe re-useable design concepts, particularly in
+                        software. They describe how objects are organized to call each other.
                     </p>
                     <a href="mvc.pdf">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
@@ -156,14 +155,14 @@
                         <input type="checkbox" id="MVC" name="MVC" value="MVC">
                         <label for="MVC"> Model View Controller Architecture</label>
                     </div>
-                    <textarea maxlength="1000"></textarea>
+                    <textarea id="notes">The Model-View-Controller (MVC) architecture separates an application into three components: the model (data and business logic), the view (user interface), and the controller (handles user input and updates the model/view). In Flask, MVC can be implemented by defining models using SQLAlchemy for data management, templates for views, and routes and handlers as controllers to handle user requests and update the model/view accordingly.</textarea>
                 </div>
             </div>
 
 
             <div id="topic11">
                 <h3 onclick="toggle('content11')">Topic 11: RESTful APIs</h3>
-                <div id="content11" class="content">
+                <div id="content11" class="content hidden">
                     <p>
                         REpresentational State Transfer (REST) is an architecture for the
                         web that describe interactions with web based resources.
@@ -178,21 +177,21 @@
                         <input type="checkbox" id="REST" name="REST" value="REST">
                         <label for="REST"> The Six Characteristics of REST</label> 
                     </div>
-                    <textarea maxlength="1000"></textarea>
+                    <textarea id="notes">REST (Representational State Transfer) is an architectural style for designing networked applications. It has six characteristics: statelessness, client-server architecture, uniform interface, cacheability, layered system, and code on demand. In a Flask project, adhering to these characteristics is significant for effective deployment. Statelessness allows scalability and reliability, as each request contains all necessary information. The client-server architecture enables separation of concerns and flexibility. A uniform interface ensures interoperability and simplifies client development. Cacheability enhances performance by allowing caching responses. Layered systems support scalability and modularity. Code on demand allows the server to send executable code to clients, facilitating extensibility. By following these REST principles, Flask projects can achieve improved scalability, performance, and maintainability.</textarea>
                 </div>
             </div>
-
-
         </div>
 
 
         <!--Task 5-->
         <div class="review">
+            <h2>Personal Unit Review</h2>
             At the conclusion of the unit, I found the group project to be a valuable experience as it provided insights into agile processes and the importance of teamwork in web development. 
             However, to enhance the learning experience, it would be beneficial to delve deeper into coding topics. 
             I would highly recommend this unit to other students who are interested in web development or have prior experience in the field.
         </div>
 
+        <script src="script.js"></script> <!--Apply JavaScript once all DOM elements are loaded-->
         
     </body>
 </html>

@@ -31,10 +31,24 @@ h1 {
     color: darkslategrey;
 }
 
-#notes textarea{
-    color: black;
+.red-text {
+    color: red;
 }
 
-#notes.error textarea{
-    color: red;
+.topics {
+    padding-bottom: 1rem;
+}
+
+.outcomes {
+    padding-top: 0.1rem;
+    padding-bottom: 1rem;
+}
+
+.content.hidden {
+    display: none;
+}
+
+textarea {
+    width: 750px;
+    height: 175px;
 }
