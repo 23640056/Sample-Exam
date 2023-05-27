@@ -64,7 +64,9 @@
                         <input type="checkbox" id="forms" name="forms" value="form">
                         <label for="forms"> HTML forms</label><br>
                     </div>
-                    <textarea maxlength="1000"></textarea>
+                    <div id="notes">
+                        <textarea maxlength="1000" oninput="checkLengyh(this)"></textarea>
+                    </div>
                 </div>
             </div>
 
@@ -120,8 +122,6 @@
                     <p>
                         The Document Object Model is a platform- and language-neutral interface that will allow programs
                         and scripts to dynamically access and update the content, structure and style of documents.
-                        The document can be further processed and the results of that processing can be incorporated
-                        back into the presented page.
                     </p>
                     <a href="dom.pdf">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
@@ -143,19 +143,40 @@
                 <h3 onclick="toggle('content10')">Topic 10: Model View Controller</h3>
                 <div id="content10" class="content">
                     <p>
-                        The model refers to an object referencing an entity in a database.
-                        The view is how that object is presented to the user.
-                        The controller is a linking class that builds the model from the
-                        database, prepares the view based on the model, and the updates and saves the models back to the database.
+                        
                     </p>
                     <a href="mvc.pdf">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
                     <p>
-
+                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li id="item3">Develop web applications using client-side and server-side technologies.</li>
+                        <li id="item5">Design and implement secure web applications using industry best practices.</li>
                     </p>
                     <div class="checkbox">
                         <input type="checkbox" id="MVC" name="MVC" value="MVC">
                         <label for="MVC"> Model View Controller Architecture</label>
+                    </div>
+                    <textarea maxlength="1000"></textarea>
+                </div>
+            </div>
+
+
+            <div id="topic11">
+                <h3 onclick="toggle('content11')">Topic 11: RESTful APIs</h3>
+                <div id="content11" class="content">
+                    <p>
+                        REpresentational State Transfer (REST) is an architecture for the
+                        web that describe interactions with web based resources.
+                    </p>
+                    <a href="">Lecture Notes</a>
+                    <h4>Relevant Learning Outcomes</h4>
+                    <p>
+                        <li id="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
+                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                    </p>
+                    <div class="checkbox">
+                        <input type="checkbox" id="REST" name="REST" value="REST">
+                        <label for="REST"> The Six Characteristics of REST</label> 
                     </div>
                     <textarea maxlength="1000"></textarea>
                 </div>

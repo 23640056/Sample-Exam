@@ -30,3 +30,11 @@ h1 {
 #item6 {
     color: darkslategrey;
 }
+
+#notes textarea{
+    color: black;
+}
+
+#notes.error textarea{
+    color: red;
+}
