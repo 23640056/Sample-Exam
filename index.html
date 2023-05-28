@@ -242,6 +242,23 @@
 
             <div id="topic9">
                 <h3 onclick="toggle('content9')">Topic 9: Authentication</h3>
+                <div id="content9" class="content hidden">
+                    <p>
+                        Security is a primary concern for anyone developing web applications.
+                        Data access must be controlled, passwords must be validated securely, and users just able to trust the information presented to them.
+                    </p>
+                    <a href="authentication.pdf">Lecture Notes</a>
+                    <h4>Relevant Learning Outcomes</h4>
+                    <ul>
+                        <li class="item3">Develop web applications using client-side and server-side technologies.</li>
+                        <li class="item5">Design and implement secure web applications using industry best practices.</li>
+                    </ul>
+                    <div class="checkbox">
+                        <input type="checkbox" id="auth" name="auth" value="auth">
+                        <label for="auth"> Cookies and Tokens</label>
+                    </div>
+                    <textarea id="notes9"></textarea>
+                </div>
             </div>
 
 
@@ -275,7 +292,7 @@
                         REpresentational State Transfer (REST) is an architecture for the
                         web that describe interactions with web based resources.
                     </p>
-                    <a href="">Lecture Notes</a>
+                    <a href="REST.pdf">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
                     <ul>
                         <li class="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
@@ -293,16 +310,72 @@
 
             <div id="topic12">
                 <h3 onclick="toggle('content12')">Topic 12: Testing</h3>
+                <div id="content12" class="content hidden">
+                    <p>
+                        Unit tests - test each individual function to ensure it behaves correctly
+                        Integration test - execute each scenario to make sure modules integrate correctly
+                        System test - integrate real hardware platforms
+                        Acceptance test - run through complete user scenarios via the user interface
+                    </p>
+                    <a href="testing.pdf">Lecture Notes</a>
+                    <h4>Relevant Learning Outcomes</h4>
+                    <ul>
+                        <li class="item5">Design and implement secure web applications using industry best practices.</li>
+                        <li class="item6">Collaborate effectively in web development teams using agile project methodologies.</li>
+                    </ul>
+                    <div class="checkbox">
+                        <input type="checkbox" id="test" name="test" value="test">
+                        <label for="test"> Selenium Testing</label>
+                    </div>
+                    <textarea id="notes12"></textarea>
+                </div>
             </div>
 
 
             <div id="topic13">
                 <h3 onclick="toggle('content13')">Topic 13: Client Side Rendering</h3>
+                <div id="content13" class="content hidden">
+                    <p>
+                        Client Side Rendering involves the client first needing to access HTML templates and JavaScript code (static) Flask
+                        redirects all requests for a file to the static HTML to be served, thus requires HTML and JavaScript for the client.
+                    </p>
+                    <a href="">Lecture Notes</a>
+                    <h4>Relevant Learning Outcomes</h4>
+                    <ul>
+                        <li class="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
+                        <li class="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li class="item3">Develop web applications using client-side and server-side technologies.</li>
+                    </ul>
+                    <div class="checkbox">
+                        <input type="checkbox" id="client" name="client" value="client">
+                        <label for="client"> HTML, CSS and JavaScript</label>
+                    </div>
+                    <textarea id="notes13"></textarea>
+                </div>
             </div>
 
 
             <div id="topic14">
                 <h3 onclick="toggle('content14')">Topic 14: Going to Production</h3>
+                <div id="content14" class="content hidden">
+                    <p>
+                        A linux server is the traditional way of deploying
+                        a web application.
+                        The server runs applications listening to ports for
+                        requests and serves those requests.
+                    </p>
+                    <a href="deploy.pdf">Lecture Notes</a>
+                    <h4>Relevant Learning Outcomes</h4>
+                    <ul>
+                        <li class="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
+                        <li class="item5">Design and implement secure web applications using industry best practices.</li>
+                    </ul>
+                    <div class="checkbox">
+                        <input type="checkbox" id="deploy" name="deploy" value="deploy">
+                        <label for="deploy"> Heroku</label>
+                    </div>
+                    <textarea id="notes14"></textarea>
+                </div>
             </div>
         </div>
 
