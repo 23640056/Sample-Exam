@@ -7,30 +7,6 @@ h1 {
     padding: 10px;
 }
 
-#item1 {
-    color: green;
-}
-
-#item2 {
-    color: blue;
-}
-
-#item3 {
-    color: red;
-}
-
-#item4 {
-    color: darkmagenta;
-}
-
-#item5 {
-    color: darkorange;
-}
-
-#item6 {
-    color: darkslategrey;
-}
-
 .red-text {
     color: red;
 }
@@ -51,4 +27,8 @@ h1 {
 textarea {
     width: 750px;
     height: 175px;
+}
+
+.item1 {
+    color: red;;
 }

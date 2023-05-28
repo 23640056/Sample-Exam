@@ -32,12 +32,12 @@
         <div class="outcomes">
             <h2>Learning Outcomes</h2>
             <ul>
-                <li id="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
-                <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
-                <li id="item3">Develop web applications using client-side and server-side technologies.</li>
-                <li id="item4">Explain and apply agile project methodologies.</li>
-                <li id="item5">Design and implement secure web applications using industry best practices.</li>
-                <li id="item6">Collaborate effectively in web development teams using agile project methodologies.</li>
+                <li class="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
+                <li>Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                <li>Develop web applications using client-side and server-side technologies.</li>
+                <li>Explain and apply agile project methodologies.</li>
+                <li>Design and implement secure web applications using industry best practices.</li>
+                <li>Collaborate effectively in web development teams using agile project methodologies.</li>
             </ul>
         </div>
         
@@ -55,16 +55,16 @@
                     </p>
                     <a href="html.pdf">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
-                    <p>
-                        <li id="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
-                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
-                        <li id="item3">Develop web applications using client-side and server-side technologies.</li>
-                    </p>
+                    <ul>
+                        <li class="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
+                        <li>Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li>Develop web applications using client-side and server-side technologies.</li>
+                    </ul>
                     <div class="checkbox">
                         <input type="checkbox" id="forms" name="forms" value="form">
                         <label for="forms"> HTML forms</label><br>
                     </div>
-                    <textarea id="notes"></textarea>
+                    <textarea id="notes1"></textarea>
                 </div>
             </div>
 
@@ -78,15 +78,15 @@
                     </p>
                     <a href="css.pdf">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
-                    <p>
-                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
-                        <li id="item3">Develop web applications using client-side and server-side technologies.</li>
-                    </p>
+                    <ul>
+                        <li>Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li>Develop web applications using client-side and server-side technologies.</li>
+                    </ul> 
                     <div class="checkbox">
                         <input type="checkbox" id="css" name="css" value="css">
                         <label for="css"> CSS Responsive</label><br>
                     </div>
-                    <textarea id="notes"></textarea>
+                    <textarea id="notes2"></textarea>
                 </div>
             </div>
 
@@ -101,18 +101,39 @@
                     </p>
                     <a href="bootstrap.pdf">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
-                    <p>
-                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
-                        <li id="item3">Develop web applications using client-side and server-side technologies.</li>
-                    </p>
+                    <ul>
+                        <li>Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li>Develop web applications using client-side and server-side technologies.</li>
+                    </ul>
                     <div class="checkbox">
                         <input type="checkbox" id="bootstrap" name="bootstrap" value="bootstrap">
-                        <label for="boostrap"> Boostrap 5 Forms</label><br>
+                        <label for="bootstrap"> Bootstrap 5 Forms</label><br>
                     </div>
-                    <textarea id="notes"></textarea>
+                    <textarea id="notes3"></textarea>
                 </div>
             </div>
             <!--There are more topics but let's just implement the first 3 and 5, 10 and 11 to save time.-->
+
+            <div id="topic4">
+                <h3 onclick="toggle('content4')">Topic 4: JavaScript</h3>
+                <div id="content4" class="content hidden">
+                    <p>
+                        The main task of JavaScript is to respond to events. These are user actions which are picked up by event listeners, and 
+                        the associated JavaScript code is run to respond to these user actions (events).
+                    </p>
+                    <a href="javascript.pdf">Lecture Notes</a>
+                    <h4>Relevant Learning Outcomes</h4>
+                    <ul>
+                        <li>Explain the key components that enable the delivery of data and services on today's internet.</li>
+                        <li>Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li>Develop web applications using client-side and server-side technologies.</li>
+                        <li>Design and implement secure web applications using industry best practices.</li>
+                    </ul>
+                    <p>
+                        ...
+                    </p>
+                </div>
+            </div>
 
             <div id="topic5">
                 <h3 onclick="toggle('content5')">Topic 5: Document Object Model</h3>
@@ -123,16 +144,16 @@
                     </p>
                     <a href="dom.pdf">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
-                    <p>
-                        <li id="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
-                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
-                        <li id="item5">Design and implement secure web applications using industry best practices.</li>
-                    </p>
+                    <ul>
+                        <li>Explain the key components that enable the delivery of data and services on today's internet.</li>
+                        <li>Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li>Design and implement secure web applications using industry best practices.</li>
+                    </ul>
                     <div class="checkbox">
                         <input type="checkbox" id="DOM" name="DOM" value="DOM">
                         <label for="DOM"> DOM Tree</label>
                     </div>
-                    <textarea id="notes">The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a web page as a tree-like model, allowing developers to access and manipulate its elements. The DOM is crucial in web development as it enables dynamic content, interactivity, and user experience enhancements. With the DOM, developers can modify HTML elements, respond to user events, traverse and manipulate the document structure, and ensure cross-browser compatibility. It also facilitates integration with other web technologies such as JavaScript and CSS. Overall, the DOM plays a vital role in creating interactive and responsive web applications.</textarea>
+                    <textarea id="notes5">The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a web page as a tree-like model, allowing developers to access and manipulate its elements. The DOM is crucial in web development as it enables dynamic content, interactivity, and user experience enhancements. With the DOM, developers can modify HTML elements, respond to user events, traverse and manipulate the document structure, and ensure cross-browser compatibility. It also facilitates integration with other web technologies such as JavaScript and CSS. Overall, the DOM plays a vital role in creating interactive and responsive web applications.</textarea>
                 </div>
             </div>
 
@@ -146,16 +167,16 @@
                     </p>
                     <a href="mvc.pdf">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
-                    <p>
-                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
-                        <li id="item3">Develop web applications using client-side and server-side technologies.</li>
-                        <li id="item5">Design and implement secure web applications using industry best practices.</li>
-                    </p>
+                    <ul>
+                        <li>Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                        <li>Develop web applications using client-side and server-side technologies.</li>
+                        <li>Design and implement secure web applications using industry best practices.</li>
+                    </ul>
                     <div class="checkbox">
                         <input type="checkbox" id="MVC" name="MVC" value="MVC">
                         <label for="MVC"> Model View Controller Architecture</label>
                     </div>
-                    <textarea id="notes">The Model-View-Controller (MVC) architecture separates an application into three components: the model (data and business logic), the view (user interface), and the controller (handles user input and updates the model/view). In Flask, MVC can be implemented by defining models using SQLAlchemy for data management, templates for views, and routes and handlers as controllers to handle user requests and update the model/view accordingly.</textarea>
+                    <textarea id="notes10">The Model-View-Controller (MVC) architecture separates an application into three components: the model (data and business logic), the view (user interface), and the controller (handles user input and updates the model/view). In Flask, MVC can be implemented by defining models using SQLAlchemy for data management, templates for views, and routes and handlers as controllers to handle user requests and update the model/view accordingly.</textarea>
                 </div>
             </div>
 
@@ -169,15 +190,15 @@
                     </p>
                     <a href="">Lecture Notes</a>
                     <h4>Relevant Learning Outcomes</h4>
-                    <p>
-                        <li id="item1">Explain the key components that enable the delivery of data and services on today's internet.</li>
-                        <li id="item2">Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
-                    </p>
+                    <ul>
+                        <li>Explain the key components that enable the delivery of data and services on today's internet.</li>
+                        <li>Understand the technologies behind the terms and how they fit together, with hands-on programming experience.</li>
+                    </ul>
                     <div class="checkbox">
                         <input type="checkbox" id="REST" name="REST" value="REST">
                         <label for="REST"> The Six Characteristics of REST</label> 
                     </div>
-                    <textarea id="notes">REST (Representational State Transfer) is an architectural style for designing networked applications. It has six characteristics: statelessness, client-server architecture, uniform interface, cacheability, layered system, and code on demand. In a Flask project, adhering to these characteristics is significant for effective deployment. Statelessness allows scalability and reliability, as each request contains all necessary information. The client-server architecture enables separation of concerns and flexibility. A uniform interface ensures interoperability and simplifies client development. Cacheability enhances performance by allowing caching responses. Layered systems support scalability and modularity. Code on demand allows the server to send executable code to clients, facilitating extensibility. By following these REST principles, Flask projects can achieve improved scalability, performance, and maintainability.</textarea>
+                    <textarea id="notes11">REST (Representational State Transfer) is an architectural style for designing networked applications. It has six characteristics: statelessness, client-server architecture, uniform interface, cacheability, layered system, and code on demand. In a Flask project, adhering to these characteristics is significant for effective deployment. Statelessness allows scalability and reliability, as each request contains all necessary information. The client-server architecture enables separation of concerns and flexibility. A uniform interface ensures interoperability and simplifies client development. Cacheability enhances performance by allowing caching responses. Layered systems support scalability and modularity. Code on demand allows the server to send executable code to clients, facilitating extensibility. By following these REST principles, Flask projects can achieve improved scalability, performance, and maintainability.</textarea>
                 </div>
             </div>
         </div>
